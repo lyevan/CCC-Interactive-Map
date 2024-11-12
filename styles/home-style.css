@@ -295,7 +295,7 @@ nav {
 	.bg {
 		background-position: center center;
 	}
-	
+
 	.buildings section {
 		 width: 266px;
 		 height: 160px;
@@ -494,7 +494,7 @@ nav {
 	visibility: hidden;
 	opacity: 0;
 	font-family: "Source Code Pro", monospace;
-	font-size: 0.67rem;
+	font-size: 1.2rem;
 	font-weight: 400;
 	text-shadow: black 1px 1px 3px;
 	color: white;
@@ -510,8 +510,8 @@ nav {
 		margin-bottom: 50px;
 	}
 	.buildings section {
-		 width: 220px;
-		 height: 132.3px;
+		 width: 80%;
+		 height: 160px;
 	}
 
 	.buildings section {
@@ -551,7 +551,7 @@ nav {
 	}
 
 	.buildings section h3 {
-		font-size: 1rem;
+		font-size: 1.5rem;
 		transition: all 0.8s;
 	}
 
