@@ -42,7 +42,7 @@ nav {
 	display: flex;
 	background-color: #01427A;
 	align-items: end;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 
 }
 
@@ -145,6 +145,7 @@ nav {
 	border-radius: 20px;
 	z-index: 20;
 	margin: 10px;
+	margin-bottom: 200px;
 
 	width: 500px;
 	height: 300px;
@@ -181,7 +182,7 @@ nav {
 		position: absolute;
 		bottom: 0;
 		left: 55%;
-		transform: translateY(160%);
+		transform: translateY(120%);
 		width: 200%;
 
 		padding-top: 20px;
@@ -196,7 +197,7 @@ nav {
 		position: absolute;
 		bottom: 0;
 		left: -50%;
-		transform: translateY(150%);
+		transform: translateY(120%);
 		width: 200%;
 
 		padding-top: 20px;
@@ -480,7 +481,7 @@ nav {
 
 }
 
-
+}
 @media only screen and (max-width: 420px) {
 
 	.bg {
@@ -633,3 +634,4 @@ nav {
 
 }
 
+}
