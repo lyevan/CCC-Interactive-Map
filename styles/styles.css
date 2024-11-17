@@ -1,0 +1,194 @@
+*{
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+
+}
+
+
+/* NAVIGATION BAR */
+nav {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar {
+	display: flex;
+	background-color: #01427A;
+	align-items: end;
+	margin-bottom: 0px;
+
+
+}
+
+.navbar ul{
+	list-style: none;
+	margin-bottom: 10px;
+
+}
+
+.navbar ul li{
+	display: inline-block;
+
+}
+
+.navbar ul li a{
+	color: white;
+	padding: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: "Calibri";
+	transition: all 0.5s;
+
+}
+
+.navbar ul li a.active,.navbar li a:hover{
+	box-shadow: 2px 2px 5px black;
+	background: #01B3EF;
+
+	padding-right: 20px;
+	padding-left: 20px;
+	transition: all 0.5s;
+}
+
+.navbar .logo {
+	margin: 5px 0px 5px 5px;
+	width: 70%;
+	height: 60px;
+}
+
+.navbar .logo img{
+	width: auto;
+	max-height: 60px;
+	background-color: white;
+}
+
+
+.navbar input{
+	display: none;
+}
+
+.navbar label{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+.sidebar {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.buildings {
+
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	cursor: default;
+	height: 50%;
+}
+
+.buildings section {
+	display: flex;
+	background-color: white;
+	max-width: 27%;
+	height: 130px;
+	border: midnightblue solid 2px;
+	border-radius: 10px;
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+	justify-content: center;
+	align-items: start;
+	color: blue;
+	cursor: default;
+}
+
+.buildings section label h3{
+	align-items: start;
+	margin: 5px 0px 5px 0px;
+	font-family: "Calibri";
+}
+
+.buildings section label img {
+	width: 100%;
+}
+
+#rizal img{
+	margin-top: 12px;
+}
+
+
+/*
+
+.buildings section .map-container {
+	position: absolute;
+	top: 105%;
+	left: 50%;
+	width: 85%;
+	transform: translate(-50%);
+	background-color: white;
+	border: blue solid 1px;
+	visibility: hidden;
+	max-height: 0vh;
+	transition: 0s;
+		*{
+			opacity: 0;
+		}
+	
+
+}
+
+.buildings .bldg-input {
+	display: none;
+	&:checked + label + .map-container{
+		max-height: 100vh;
+		visibility: visible;
+		transition: 0s;
+		*{
+			opacity: 1;
+		}
+	}
+}
+
+
+*/
+
+/* FLOOR SELECTOR */
+/*
+.floor-container {
+	list-style: none;
+}
+.floor-container li label{
+	cursor: pointer;
+}
+
+*/
+
+
+
+
+
+

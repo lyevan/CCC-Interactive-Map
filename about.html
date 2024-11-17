@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About</title>
+
+	<link rel="stylesheet" type="text/css" href="styles/about-styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+	</style>
+</head>
+<body>
+	<div class="bg"></div>
+	<div class="bg-overlay"></div>
+
+	<!--/////////////////////////////
+		NAVIGATION AND SIDE BAR
+	//////////////////////////////-->
+	<nav>
+
+		<!--Div for navigation bar and its components-->
+		<div class="navbar">
+
+			<!--School Logo-->
+			<div class="logo">
+				<a href="index.html"><img src="images/ccc-home-logo.png" alt="CCC Official Logo"></a>
+			</div>
+			
+			<!--The navigation button links -->
+			<ul>
+				<li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+				<li><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a></li>
+				<li><a href="contacts.html"><i class="fa fa-address-book" aria-hidden="true"></i> Contacts</a></li>
+				<li><a href="links.html"><i class="fa fa-external-link" aria-hidden="true"></i> Links</a></li>
+			</ul>
+			
+			<!--Menu Bar. To be shown when media width is less than 768px-->
+			<input type="checkbox" id="_hamburger" name="hamburger">
+			
+			<label for="_hamburger" class="_checkbtn">
+			
+				<!--Show bars when not clicked-->
+				<i class="fa fa-bars"></i>
+
+				<!--Show close when clicked-->
+				<i class="fa fa-remove"></i>
+
+			</label>
+		</div>
+
+
+
+		<!--Div for side bar and its components. To be shown when media width is less than 768px-->
+		<div class="sidebar">
+			
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contacts</a></li>
+				<li><a href="#">Links</a></li>
+			</ul>
+		
+		</div>
+
+	</nav>
+	<div class="title-container">
+		<section>
+			<h2>The CCC Interactive Map</h2>
+		</section>
+
+	</div>
+	<!-- About Body -->
+	<div class="about-body">
+		<section>
+			<p>The CCC Interactive Map is created to cater freshmen and even those students who just want to explore and find specific rooms and buildings around the campus.</p>
+			<p>With this, it can provide convenience to those who are not familiar with the places on school reducing the hassle of being lost.</p>
+		</section>
+
+
+	</div>
+</body>
+</html>
