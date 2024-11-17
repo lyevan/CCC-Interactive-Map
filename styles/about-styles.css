@@ -129,41 +129,44 @@ nav {
 	justify-content: center;
 	align-items: center;
 	background-color: white;
-	height: 3vw;
+	height: 5vw;
 	width: 80vw;
 }
 
 .title-container section h2 {
 	color: #01427A;
 	font-family: "Source Code Pro", monospace;
-	font-size: 2rem;
+	font-size: 3rem;
 
 }
 
-.map-container {
+.about-body {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	width: 100vw;
-	z-index: 15;
-	margin-bottom: 10px;
+	z-index: 20;
 }
 
-.map-container section {
+.about-body section {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	max-width: 80vw;
 	width: 80vw;
-	height: 65vh;
+	height: 30vw;
 	background-color: white;
 }
 
-.map-container section p {
+.about-body p {
 	color: black;
-	font-weight: bold;
+	font-family: "Source Code Pro", monospace;
 	font-size: 2rem;
+	margin: 10px;
 }
+
+
 
 
 
@@ -249,4 +252,6 @@ nav {
 		font-size: 0.47rem;
 	}
 }
+
+
 
